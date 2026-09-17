@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit secrets and local configuration
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Generated local database
+database/cricket.db
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
